@@ -11,6 +11,61 @@
         ><span class="material-icons">chevron_right</span></a
       >
     </li>
+    <li class="collection-item avatar valign-wrapper">
+      <span class="material-icons mr">person</span>
+      <div>
+        <h5 class="title">Name name</h5>
+        <p>Department</p>
+        <p>Job title</p>
+      </div>
+      <a href="#!" class="secondary-content"
+        ><span class="material-icons">chevron_right</span></a
+      >
+    </li>
+    <li class="collection-item avatar valign-wrapper">
+      <span class="material-icons mr">person</span>
+      <div>
+        <h5 class="title">Name name</h5>
+        <p>Department</p>
+        <p>Job title</p>
+      </div>
+      <a href="#!" class="secondary-content"
+        ><span class="material-icons">chevron_right</span></a
+      >
+    </li>
+    <li class="collection-item avatar valign-wrapper">
+      <span class="material-icons mr">person</span>
+      <div>
+        <h5 class="title">Name name</h5>
+        <p>Department</p>
+        <p>Job title</p>
+      </div>
+      <a href="#!" class="secondary-content"
+        ><span class="material-icons">chevron_right</span></a
+      >
+    </li>
+    <li class="collection-item avatar valign-wrapper">
+      <span class="material-icons mr">person</span>
+      <div>
+        <h5 class="title">Name name</h5>
+        <p>Department</p>
+        <p>Job title</p>
+      </div>
+      <a href="#!" class="secondary-content"
+        ><span class="material-icons">chevron_right</span></a
+      >
+    </li>
+    <li class="collection-item avatar valign-wrapper">
+      <span class="material-icons mr">person</span>
+      <div>
+        <h5 class="title">Name name</h5>
+        <p>Department</p>
+        <p>Job title</p>
+      </div>
+      <a href="#!" class="secondary-content"
+        ><span class="material-icons">chevron_right</span></a
+      >
+    </li>
   </ul>
 </template>
 

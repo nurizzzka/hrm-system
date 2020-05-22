@@ -5,7 +5,7 @@
         <div class="input-field col s5">
           <i class="material-icons prefix">textsms</i>
           <input type="text" id="autocomplete-input" class="autocomplete" />
-          <label for="autocomplete-input">Введите ФИО или Должность</label>
+          <label for="autocomplete-input">Поиск по ФИО или Должности</label>
         </div>
         <div class="input-field col s5">
           <select multiple>
