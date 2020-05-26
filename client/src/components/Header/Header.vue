@@ -5,7 +5,7 @@
         <router-link to="/" tag="a" class="brand-logo">Logo</router-link>
         <router-link
           ref="dropdownScript"
-          to="#"
+          to="/"
           tag="a"
           data-target="mobile-demo"
           class="sidenav-trigger"
@@ -22,7 +22,7 @@
             :to="link.url"
             :exact="link.exact"
           >
-            <a href="#">{{ link.title }}</a>
+            <a href="/">{{ link.title }}</a>
           </router-link>
         </ul>
         <ul class="sidenav" id="mobile-demo">
@@ -33,9 +33,7 @@
             active-class="active"
             :to="link.url"
             :exact="link.exact"
-          >
-            <a href="#">{{ link.title }}</a>
-          </router-link>
+          >{{ link.title }}</router-link>
         </ul>
       </div>
     </nav>
@@ -57,12 +55,12 @@ export default {
         { title: "Сотрудники", url: "/workers" },
         { title: "Новые кадры", url: "/new-workers" },
         { title: "Отделы", url: "/departments" },
-        { title: "Профиль", url: "/profile" },
-      ],
+        { title: "Профиль", url: "/profile" }
+      ]
     };
   },
   mounted() {
     M.AutoInit();
-  },
+  }
 };
 </script>

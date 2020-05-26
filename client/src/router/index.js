@@ -30,6 +30,21 @@ const routes = [
     name: "Departments",
     component: () => import("../views/Departments.vue"),
   },
+  {
+    path: "/profile",
+    name: "Profile",
+    component: () => import("../views/Profile.vue"),
+  },
+  {
+    path: "/login",
+    name: "LoginForm",
+    component: () => import("../views/LoginForm.vue"),
+  },
+  {
+    path: "/registration",
+    name: "RegistrationForm",
+    component: () => import("../views/RegistrationForm.vue"),
+  },
 ];
 
 const router = new VueRouter({
